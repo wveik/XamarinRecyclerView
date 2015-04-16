@@ -45,10 +45,16 @@ namespace XamarinRecyclerView
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int ic_action_discard = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int monoandroidsplash = 2130837505;
+			public const int ic_action_new = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int Icon = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int monoandroidsplash = 2130837507;
 			
 			static Drawable()
 			{
@@ -63,23 +69,29 @@ namespace XamarinRecyclerView
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060005
-			public const int cbxStart = 2131099653;
+			// aapt resource value: 0x7f070006
+			public const int add = 2131165190;
 			
-			// aapt resource value: 0x7f060000
-			public const int recyclerView = 2131099648;
+			// aapt resource value: 0x7f070005
+			public const int cbxStart = 2131165189;
 			
-			// aapt resource value: 0x7f060003
-			public const int txtMessage = 2131099651;
+			// aapt resource value: 0x7f070007
+			public const int discard = 2131165191;
 			
-			// aapt resource value: 0x7f060001
-			public const int txtName = 2131099649;
+			// aapt resource value: 0x7f070000
+			public const int recyclerView = 2131165184;
 			
-			// aapt resource value: 0x7f060002
-			public const int txtSubject = 2131099650;
+			// aapt resource value: 0x7f070003
+			public const int txtMessage = 2131165187;
 			
-			// aapt resource value: 0x7f060004
-			public const int txtTime = 2131099652;
+			// aapt resource value: 0x7f070001
+			public const int txtName = 2131165185;
+			
+			// aapt resource value: 0x7f070002
+			public const int txtSubject = 2131165186;
+			
+			// aapt resource value: 0x7f070004
+			public const int txtTime = 2131165188;
 			
 			static Id()
 			{
@@ -106,6 +118,22 @@ namespace XamarinRecyclerView
 			}
 			
 			private Layout()
+			{
+			}
+		}
+		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int actionbar = 2131099648;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
 			{
 			}
 		}
